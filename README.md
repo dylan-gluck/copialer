@@ -22,7 +22,7 @@ Tool to encode and decode text using copiale cipher. Inspired by [this video](ht
 
 - [ ] Input argument flags for settings
 - [ ] STDOUT interface & prompt
-- [-] Cipher Logic
+- [x] Cipher Logic
 - [x] Get base charset
 - [x] Create first keyfile
 
