@@ -43,8 +43,6 @@ async function banner() {
     }
   );
   await sleep(500);
-
-  return true;
 }
 
 async function loadCharsetBase() {
@@ -182,3 +180,6 @@ async function encodeDocument() {
 await banner();
 await loadModules();
 await encodeDocument();
+
+// Exit
+process.exit(1);
